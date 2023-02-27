@@ -8,7 +8,7 @@ The simulation setup used is as follows: We aim to study the impact of SINR on t
 
 The file used in ns-3 for simulation is:
 
-
+************************************************** Output Files *********************************************
 There are 16 folders each containing 50 simulation runs. The names of the folders are:
 1.  3GPPInHLos : 50 simulation runs for InH scenario using 3GPP SCM and channel condition fixed to LOS.
 2.  3GPPInHNlos: 50 simulation runs for InH scenario using 3GPP SCM and channel condition fixed to NLOS.
@@ -26,3 +26,16 @@ There are 16 folders each containing 50 simulation runs. The names of the folder
 14. nyuUmaNlos : 50 simulation runs for UMa scenario using NYUSIM and channel condition fixed to NLOS.
 15. nyuUmiLos  : 50 simulation runs for UMi scenario using NYUSIM and channel condition fixed to LOS.
 16. nyuUmiNlos : 50 simulation runs for UMi scenario using NYUSIM and channel condition fixed to NLOS.
+--------------------------------------------------------------------------------------------------------------
+1 (a). pathlossNYUSIM142GHz.xlsx: has path loss values computed using CI path loss model with 1 m reference 
+distance for UMi, UMa, RMa and InH scenarios. 
+1 (b). pathlossPlots142GHzNYUSIM.m: plots the path loss values present in the pathlossNYUSIM142GHz.xlsx file.
+--------------------------------------------------------------------------------------------------------------
+2 (a). pathlossNYUSIM28GHz.xlsx: has path loss values computed using CI path loss model with 1 m reference 
+distance for UMi, UMa, RMa, InH and InF scenarios.
+2 (b).pathLossPlots28GHzNYUSIM.m: plots the path loss values present in thepathlossNYUSIM28GHz.xlsx file.
+--------------------------------------------------------------------------------------------------------------
+
+
+
+
