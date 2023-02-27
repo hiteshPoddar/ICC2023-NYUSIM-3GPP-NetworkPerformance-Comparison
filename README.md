@@ -15,7 +15,7 @@ LOS/NLOS state. We run 50 realizations for each combination of channel model (NY
 In each realization (duration of 9 seconds), HARQ is enabled, and blockage is disabled for both 3GPP SCM and NYUSIM.
 
 ## Output Files
-### Simulation Run Outputs
+### Simulation Run Outputs:- https://drive.google.com/drive/folders/1llWYMZcuhVARXL_5vgzJVHl6c7Yh2_kL?usp=share_link
 There are 16 folders each containing 50 simulation runs. The names of the folders are:
 1.  **3GPPInHLos** : 50 simulation runs for InH scenario using 3GPP SCM and channel condition fixed to LOS.
 2.  **3GPPInHNlos**: 50 simulation runs for InH scenario using 3GPP SCM and channel condition fixed to NLOS.
