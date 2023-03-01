@@ -54,8 +54,16 @@ distance for UMi, UMa, RMa and InH scenarios.<br>
 distance for UMi, UMa, RMa, InH and InF scenarios. <br>
 2 (b). **pathLossPlots28GHzNYUSIM.m**: plots the path loss values present in thepathlossNYUSIM28GHz.xlsx file. <br>
 
-
-
+#Code
+The code used to process the output files is present in the folder ProcessingCode. <br>
+The processing code folder contains 7 files:<br>
+(i) SystemLevelMetricesCdfs.m - main entry point to the code. Calls methods to compute Latency,Throughput and packet drops.<br>
+(ii) ReadTxRxPacketTrace.m - Function to read the tx-rx-trace.txt file contents.<br>
+(iii) ReadRxPacketTrace.m - Function to read the RxPacketTrace.txt file contents.<br>
+(iv) AverageSINRInEachRun.m - Function to compute the average SINR value for each simulation run. <br>
+(v) AverageThroughputInEachRun.m - Function to compute the average throughput value for each simulation run in Mbps. <br>
+(vi) AverageLatencyInEachRun.m - Function to compute the average latency value for each simulation run in ms.<br>
+(vii) AveragePacketDropsInEachRun.m - Function to compute the average packet drops value for each simulation run in %.<br>
 
 
 
